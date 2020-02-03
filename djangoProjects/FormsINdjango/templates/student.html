@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Student Form</h1>
+<form method="post" action="">
+    {% csrf_token %}
+    <div>
+        {% if key2 %}
+
+
+        {{ key2.as_p }}
+        {% endif %}
+    </div>
+    <button type="submit">submit</button>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% if key %}
+
+
+{% for foo in key %}
+    {{ foo.name }}<br>
+    {{ foo.emailid }}<br>
+    {{ foo.contact }}<br>
+{#    {{ foo.date }}#}
+    <hr>
+
+{% endfor %}
+{% endif %}
+
+
+</body>
+</html>

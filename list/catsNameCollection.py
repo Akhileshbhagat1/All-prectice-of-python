@@ -8,3 +8,4 @@ while True:
 print("Cat names are : ")
 for names in catnames:
     print(' ' + names)
+    Print("success")
